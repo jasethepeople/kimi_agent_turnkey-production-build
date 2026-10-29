@@ -1,0 +1,54 @@
+<svg width="600" height="450" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g stroke-linecap="round">
+    <!-- ember connection lines from central node -->
+    <g stroke="#E8A15C" stroke-width="1.5" opacity="0.8">
+      <path d="M300 225 L 140 110"/>
+      <path d="M300 225 L 460 100"/>
+      <path d="M300 225 L 110 260"/>
+      <path d="M300 225 L 480 260"/>
+      <path d="M300 225 L 180 360"/>
+      <path d="M300 225 L 420 360"/>
+      <path d="M300 225 L 300 70"/>
+    </g>
+    <!-- secondary links between agents -->
+    <g stroke="#E8A15C" stroke-width="1" opacity="0.4">
+      <path d="M140 110 L 300 70 L 460 100"/>
+      <path d="M110 260 L 180 360"/>
+      <path d="M480 260 L 420 360"/>
+      <path d="M140 110 L 110 260"/>
+      <path d="M460 100 L 480 260"/>
+    </g>
+    <!-- central outline node -->
+    <circle cx="300" cy="225" r="34" stroke="#8B7CFF" stroke-width="3"/>
+    <circle cx="300" cy="225" r="22" stroke="#8B7CFF" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="300" cy="225" r="6" fill="#8B7CFF"/>
+    <!-- agent nodes -->
+    <g fill="#8B7CFF">
+      <circle cx="140" cy="110" r="10"/>
+      <circle cx="460" cy="100" r="10"/>
+      <circle cx="110" cy="260" r="9"/>
+      <circle cx="480" cy="260" r="9"/>
+      <circle cx="180" cy="360" r="10"/>
+      <circle cx="420" cy="360" r="10"/>
+      <circle cx="300" cy="70" r="9"/>
+    </g>
+    <g stroke="#8B7CFF" stroke-width="1.5" opacity="0.5">
+      <circle cx="140" cy="110" r="16"/>
+      <circle cx="460" cy="100" r="16"/>
+      <circle cx="110" cy="260" r="14"/>
+      <circle cx="480" cy="260" r="14"/>
+      <circle cx="180" cy="360" r="16"/>
+      <circle cx="420" cy="360" r="16"/>
+      <circle cx="300" cy="70" r="14"/>
+    </g>
+    <!-- tiny satellite nodes -->
+    <g fill="#8B7CFF" opacity="0.7">
+      <circle cx="90" cy="180" r="4"/>
+      <circle cx="520" cy="180" r="4"/>
+      <circle cx="240" cy="410" r="4"/>
+      <circle cx="360" cy="410" r="4"/>
+      <circle cx="380" cy="50" r="4"/>
+      <circle cx="210" cy="60" r="4"/>
+    </g>
+  </g>
+</svg>
